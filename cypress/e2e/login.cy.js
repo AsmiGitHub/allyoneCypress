@@ -1,6 +1,6 @@
 describe('Two-Factor Authentication', () => {
     it('should complete two-factor authentication after successful login', () => {
-      const apiUrl = Cypress.env('API_URL');
+    //  const apiUrl = Cypress.env('API_URL'); this is test
   
       // Perform the login with valid credentials
       cy.visit('http://localhost:3000');
