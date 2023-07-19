@@ -60,7 +60,7 @@ describe('Forgot PASSWORD', () => {
     
    //testing for the password match with confrim password
   
-   it.only('should require passwords to match with the password and confrim password and have at least 6 characters', () => {
+   it('should require passwords to match with the password and confrim password and have at least 6 characters', () => {
    
     const shortPassword = 'abc12';
     const password = chance.string({ length: 10, pool: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()' });
