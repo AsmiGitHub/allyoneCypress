@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "chance": "^1.1.11",
     "cypress": "^12.17.1"
   },
   "name": "cypress-test",
@@ -115,6 +116,7 @@
     "minimatch": "^3.1.2",
     "minimist": "^1.2.8",
     "ms": "^2.1.2",
+    "node-sass": "^9.0.0",
     "npm-run-path": "^4.0.1",
     "object-inspect": "^1.12.3",
     "once": "^1.4.0",
@@ -139,6 +141,8 @@
     "rxjs": "^7.8.1",
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
+    "sas": "^3.0.4",
+    "sass": "^1.63.6",
     "semver": "^7.5.4",
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
