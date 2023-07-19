@@ -1,1 +1,0 @@
-const API_URL = Cypress.env('https://backend.allyone.com.au/api');
