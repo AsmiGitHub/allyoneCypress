@@ -6,7 +6,7 @@ describe('Forgot PASSWORD', () => {
 
     beforeEach(() => {
     // cy.CommonUrl();
-   cy.visit('http://localhost:3000'); // Visit the login page before each test
+    cy.visit('http://localhost:3000'); // Visit the login page before each test
       // cy.pause(); // Pause the test execution to allow manual input of email and password
       cy.get('.signup-btn__PqSz5').click();
      
